@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
-                                >Hydrantenpläne</NavLinks>
+                                >Gruppe 1</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="discover" 
@@ -59,7 +59,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500} 
                                 spy={true} 
                                 exact='true' 
-                                offset={-80}>Daten anpassen</NavLinks>
+                                offset={-80}>Gruppe 2</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="services" 
@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500} 
                                 spy={true} 
                                 exact='true' 
-                                offset={-80}>Card Section</NavLinks>
+                                offset={-80}>Gruppe 3</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="signup" 
@@ -75,7 +75,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500} 
                                 spy={true} 
                                 exact='true' 
-                                offset={-80}>Info Section 3</NavLinks>
+                                offset={-80}>Gruppe 4</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
