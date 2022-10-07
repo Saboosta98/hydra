@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Info Section 1',
+    topLine: 'Gruppe 1',
     headline: 'Section One Headline',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     buttonLabel: 'Back To Top',
