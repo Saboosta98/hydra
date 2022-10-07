@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: "#fff"}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome}>React SPA</NavLogo>
+                        <NavLogo to="/" onClick={toggleHome}>Hydra42</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
-                                >Info Section 1</NavLinks>
+                                >Hydrantenpläne</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="discover" 
@@ -59,7 +59,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500} 
                                 spy={true} 
                                 exact='true' 
-                                offset={-80}>Info Section 2</NavLinks>
+                                offset={-80}>Daten anpassen</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="services" 
@@ -79,7 +79,7 @@ const Navbar = ({ toggle }) => {
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                            <NavBtnLink to="/signin">Anmeldung</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>
