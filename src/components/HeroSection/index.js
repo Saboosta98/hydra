@@ -21,9 +21,9 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>React Single Page Application</HeroH1>
+                <HeroH1>Willkommen zur Benutzeroberfläche der FFW-MN</HeroH1>
                 <HeroP>
-                    Hero paragraph to grab your readers attention. On the other hand, we denounce with beguiled and demoralized
+                    Hier können die Daten der Hydranten angepasst werden.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' 
@@ -37,7 +37,7 @@ const HeroSection = () => {
                             exact='true' 
                             offset={-80}
                             onClick={toggleBottom}>
-                        Scroll To Bottom {hover ? <ArrowRight /> : <ArrowForward />}
+                        Scroll nach unten {hover ? <ArrowRight /> : <ArrowForward />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
