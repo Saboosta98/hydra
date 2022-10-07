@@ -16,7 +16,7 @@ const SignIn = () => {
         <>
         <Container>
             <FormWrap>
-                <Icon to="/">React SPA</Icon>
+                <Icon to="/">Hydra42</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1>Anmeldung</FormH1>
