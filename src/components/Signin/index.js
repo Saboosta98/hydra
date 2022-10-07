@@ -19,13 +19,13 @@ const SignIn = () => {
                 <Icon to="/">React SPA</Icon>
                 <FormContent>
                     <Form action="#">
-                        <FormH1>Sign in to your account</FormH1>
+                        <FormH1>Anmeldung</FormH1>
                         <FormLabel htmlFor='for'>Email</FormLabel>
                         <FormInput type='email' required />
-                        <FormLabel htmlFor='for'>Password</FormLabel>
+                        <FormLabel htmlFor='for'>Passwort</FormLabel>
                         <FormInput type='password' required />
-                        <FormButton type='submit'>Continue</FormButton>
-                        <Text>Forgot Password</Text>
+                        <FormButton type='submit'>Anmelden</FormButton>
+                        <Text>Passwort vergessen</Text>
                     </Form>
                 </FormContent>
             </FormWrap>
